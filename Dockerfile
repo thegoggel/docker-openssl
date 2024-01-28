@@ -10,8 +10,5 @@ RUN apk update && \
 WORKDIR /openssl-certs
 VOLUME  /openssl-certs
 
-ADD . /usr/local/
-RUN chmod 777 /usr/local/entrypoint.sh
-CMD ["/usr/local/entrypoint.sh"]
-#ENTRYPOINT ["sh"]
+CMD tail -f /dev/null
  
