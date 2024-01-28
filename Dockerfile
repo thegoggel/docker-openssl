@@ -9,4 +9,4 @@ RUN apk update && \
 WORKDIR /openssl-certs
 VOLUME  /openssl-certs
 
-ENTRYPOINT ["sh"]
+ENTRYPOINT ["/entrypoint.sh"]
