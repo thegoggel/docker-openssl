@@ -10,3 +10,4 @@ WORKDIR /openssl-certs
 VOLUME  /openssl-certs
 
 ENTRYPOINT ["/entrypoint.sh"]
+ 
